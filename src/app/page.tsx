@@ -1,4 +1,6 @@
 import Image from "next/image";
+import GitHubLoginButton from "@/components/GitHubLoginButton";
+
 
 export default function Home() {
   return (
@@ -49,6 +51,7 @@ export default function Home() {
           >
             Read our docs
           </a>
+          <GitHubLoginButton></GitHubLoginButton>
         </div>
       </main>
       <footer className="row-start-3 flex gap-[24px] flex-wrap items-center justify-center">
